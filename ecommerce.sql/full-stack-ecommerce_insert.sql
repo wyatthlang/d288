@@ -165,15 +165,590 @@ insert into excursions values (
   (select vacation_id from vacations where vacation_title = "Italy")
 );
 
+insert into excursions values (
+  default,
+  default,
+  100,
+  "Cheese Tour",
+  "https://images.unsplash.com/photo-1631379578550-7038263db699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Greece")
+);
+
+insert into excursions values (
+  default,
+  default,
+  75,
+  "Bicycle Tour",
+  "https://images.unsplash.com/uploads/14122621859313b34d52b/37e28531?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Greece")
+);
+
+insert into excursions values (
+  default,
+  default,
+  250,
+  "Spa Treatment",
+  "https://images.unsplash.com/photo-1620733723572-11c53f73a416?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Greece")
+);
+
+insert into excursions values (
+  default,
+  default,
+  100,
+  "Historic Tour",
+  "https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Greece")
+);
+
+insert into excursions values (
+  default,
+  default,
+  25,
+  "Boat Ride",
+  "https://images.unsplash.com/photo-1587252337395-d02401a8a814?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Greece")
+);
+
+insert into excursions values (
+  default,
+  default,
+  500,
+  "Horseback Riding Lesson",
+  "https://images.unsplash.com/photo-1598810577851-34982c359155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Greece")
+);
+
+insert into excursions values (
+  default,
+  default,
+  120,
+  "Zip Lining",
+  "https://images.unsplash.com/photo-1625076307714-a5cd1b2beb4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Greece")
+);
+
+insert into excursions values (
+  default,
+  default,
+  150,
+  "Dinner and a Show",
+  "https://plus.unsplash.com/premium_photo-1661774645265-ce387923cb5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Greece")
+);
+
+insert into excursions values (
+  default,
+  default,
+  100,
+  "Cheese Tour",
+  "https://images.unsplash.com/photo-1631379578550-7038263db699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "France")
+);
+
+insert into excursions values (
+  default,
+  default,
+  75,
+  "Bicycle Tour",
+  "https://images.unsplash.com/uploads/14122621859313b34d52b/37e28531?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "France")
+);
+
+insert into excursions values (
+  default,
+  default,
+  250,
+  "Spa Treatment",
+  "https://images.unsplash.com/photo-1620733723572-11c53f73a416?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "France")
+);
+
+insert into excursions values (
+  default,
+  default,
+  100,
+  "Historic Tour",
+  "https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "France")
+);
+
+insert into excursions values (
+  default,
+  default,
+  25,
+  "Boat Ride",
+  "https://images.unsplash.com/photo-1587252337395-d02401a8a814?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "France")
+);
+
+insert into excursions values (
+  default,
+  default,
+  500,
+  "Horseback Riding Lesson",
+  "https://images.unsplash.com/photo-1598810577851-34982c359155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "France")
+);
+
+insert into excursions values (
+  default,
+  default,
+  120,
+  "Zip Lining",
+  "https://images.unsplash.com/photo-1625076307714-a5cd1b2beb4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "France")
+);
+
+insert into excursions values (
+  default,
+  default,
+  150,
+  "Dinner and a Show",
+  "https://plus.unsplash.com/premium_photo-1661774645265-ce387923cb5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "France")
+);
+
+insert into excursions values (
+  default,
+  default,
+  100,
+  "Cheese Tour",
+  "https://images.unsplash.com/photo-1631379578550-7038263db699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Belgium")
+);
+
+insert into excursions values (
+  default,
+  default,
+  75,
+  "Bicycle Tour",
+  "https://images.unsplash.com/uploads/14122621859313b34d52b/37e28531?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Belgium")
+);
+
+insert into excursions values (
+  default,
+  default,
+  250,
+  "Spa Treatment",
+  "https://images.unsplash.com/photo-1620733723572-11c53f73a416?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Belgium")
+);
+
+insert into excursions values (
+  default,
+  default,
+  100,
+  "Historic Tour",
+  "https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Belgium")
+);
+
+insert into excursions values (
+  default,
+  default,
+  25,
+  "Boat Ride",
+  "https://images.unsplash.com/photo-1587252337395-d02401a8a814?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Belgium")
+);
+
+insert into excursions values (
+  default,
+  default,
+  500,
+  "Horseback Riding Lesson",
+  "https://images.unsplash.com/photo-1598810577851-34982c359155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Belgium")
+);
+
+insert into excursions values (
+  default,
+  default,
+  120,
+  "Zip Lining",
+  "https://images.unsplash.com/photo-1625076307714-a5cd1b2beb4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Belgium")
+);
+
+insert into excursions values (
+  default,
+  default,
+  150,
+  "Dinner and a Show",
+  "https://plus.unsplash.com/premium_photo-1661774645265-ce387923cb5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Belgium")
+);
+
+insert into excursions values (
+  default,
+  default,
+  100,
+  "Cheese Tour",
+  "https://images.unsplash.com/photo-1631379578550-7038263db699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Brazil")
+);
+
+insert into excursions values (
+  default,
+  default,
+  75,
+  "Bicycle Tour",
+  "https://images.unsplash.com/uploads/14122621859313b34d52b/37e28531?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Brazil")
+);
+
+insert into excursions values (
+  default,
+  default,
+  250,
+  "Spa Treatment",
+  "https://images.unsplash.com/photo-1620733723572-11c53f73a416?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Brazil")
+);
+
+insert into excursions values (
+  default,
+  default,
+  100,
+  "Historic Tour",
+  "https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Brazil")
+);
+
+insert into excursions values (
+  default,
+  default,
+  25,
+  "Boat Ride",
+  "https://images.unsplash.com/photo-1587252337395-d02401a8a814?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Brazil")
+);
+
+insert into excursions values (
+  default,
+  default,
+  500,
+  "Horseback Riding Lesson",
+  "https://images.unsplash.com/photo-1598810577851-34982c359155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Brazil")
+);
+
+insert into excursions values (
+  default,
+  default,
+  120,
+  "Zip Lining",
+  "https://images.unsplash.com/photo-1625076307714-a5cd1b2beb4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Brazil")
+);
+
+insert into excursions values (
+  default,
+  default,
+  150,
+  "Dinner and a Show",
+  "https://plus.unsplash.com/premium_photo-1661774645265-ce387923cb5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Brazil")
+);
+
+insert into excursions values (
+  default,
+  default,
+  100,
+  "Cheese Tour",
+  "https://images.unsplash.com/photo-1631379578550-7038263db699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "South Dakota")
+);
+
+insert into excursions values (
+  default,
+  default,
+  75,
+  "Bicycle Tour",
+  "https://images.unsplash.com/uploads/14122621859313b34d52b/37e28531?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "South Dakota")
+);
+
+insert into excursions values (
+  default,
+  default,
+  250,
+  "Spa Treatment",
+  "https://images.unsplash.com/photo-1620733723572-11c53f73a416?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "South Dakota")
+);
+
+insert into excursions values (
+  default,
+  default,
+  100,
+  "Historic Tour",
+  "https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "South Dakota")
+);
+
+insert into excursions values (
+  default,
+  default,
+  25,
+  "Boat Ride",
+  "https://images.unsplash.com/photo-1587252337395-d02401a8a814?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "South Dakota")
+);
+
+insert into excursions values (
+  default,
+  default,
+  500,
+  "Horseback Riding Lesson",
+  "https://images.unsplash.com/photo-1598810577851-34982c359155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "South Dakota")
+);
+
+insert into excursions values (
+  default,
+  default,
+  120,
+  "Zip Lining",
+  "https://images.unsplash.com/photo-1625076307714-a5cd1b2beb4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "South Dakota")
+);
+
+insert into excursions values (
+  default,
+  default,
+  150,
+  "Dinner and a Show",
+  "https://plus.unsplash.com/premium_photo-1661774645265-ce387923cb5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "South Dakota")
+);
+
+insert into excursions values (
+  default,
+  default,
+  100,
+  "Cheese Tour",
+  "https://images.unsplash.com/photo-1631379578550-7038263db699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Nashville")
+);
+
+insert into excursions values (
+  default,
+  default,
+  75,
+  "Bicycle Tour",
+  "https://images.unsplash.com/uploads/14122621859313b34d52b/37e28531?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Nashville")
+);
+
+insert into excursions values (
+  default,
+  default,
+  250,
+  "Spa Treatment",
+  "https://images.unsplash.com/photo-1620733723572-11c53f73a416?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Nashville")
+);
+
+insert into excursions values (
+  default,
+  default,
+  100,
+  "Historic Tour",
+  "https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Nashville")
+);
+
+insert into excursions values (
+  default,
+  default,
+  25,
+  "Boat Ride",
+  "https://images.unsplash.com/photo-1587252337395-d02401a8a814?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Nashville")
+);
+
+insert into excursions values (
+  default,
+  default,
+  500,
+  "Horseback Riding Lesson",
+  "https://images.unsplash.com/photo-1598810577851-34982c359155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Nashville")
+);
+
+insert into excursions values (
+  default,
+  default,
+  120,
+  "Zip Lining",
+  "https://images.unsplash.com/photo-1625076307714-a5cd1b2beb4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Nashville")
+);
+
+insert into excursions values (
+  default,
+  default,
+  150,
+  "Dinner and a Show",
+  "https://plus.unsplash.com/premium_photo-1661774645265-ce387923cb5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Nashville")
+);
+
+insert into excursions values (
+  default,
+  default,
+  100,
+  "Cheese Tour",
+  "https://images.unsplash.com/photo-1631379578550-7038263db699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Wisconsin")
+);
+
+insert into excursions values (
+  default,
+  default,
+  75,
+  "Bicycle Tour",
+  "https://images.unsplash.com/uploads/14122621859313b34d52b/37e28531?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Wisconsin")
+);
+
+insert into excursions values (
+  default,
+  default,
+  250,
+  "Spa Treatment",
+  "https://images.unsplash.com/photo-1620733723572-11c53f73a416?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Wisconsin")
+);
+
+insert into excursions values (
+  default,
+  default,
+  100,
+  "Historic Tour",
+  "https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Wisconsin")
+);
+
+insert into excursions values (
+  default,
+  default,
+  25,
+  "Boat Ride",
+  "https://images.unsplash.com/photo-1587252337395-d02401a8a814?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Wisconsin")
+);
+
+insert into excursions values (
+  default,
+  default,
+  500,
+  "Horseback Riding Lesson",
+  "https://images.unsplash.com/photo-1598810577851-34982c359155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Wisconsin")
+);
+
+insert into excursions values (
+  default,
+  default,
+  120,
+  "Zip Lining",
+  "https://images.unsplash.com/photo-1625076307714-a5cd1b2beb4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Wisconsin")
+);
+
+insert into excursions values (
+  default,
+  default,
+  150,
+  "Dinner and a Show",
+  "https://plus.unsplash.com/premium_photo-1661774645265-ce387923cb5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  default,
+  (select vacation_id from vacations where vacation_title = "Wisconsin")
+);
+
+insert into countries values (
+  default,
+  "USA",
+  default,
+  default
+);
+
+insert into divisions values (
+  default,
+  default,
+  "HR",
+  default,
+  (select country_id from countries where country = "USA")
+);
+
 insert into customers values (
   default,
-  default,
+  "123 Easy St",
   default,
   "John",
   "Doe",
   default,
-  default,
-  "12345",
+  "(555)555-5555",
+  "55555",
   default
 );
 
@@ -184,5 +759,5 @@ insert into carts values (
   default,
   default,
   0,
-  (select customer_id from customers where postal_code = "12345")
+  (select customer_id from customers where postal_code = "55555")
 );
